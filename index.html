@@ -7,7 +7,7 @@
     function getData(){
       alert("data");
       $.get("GetMarket.php", function(data, status) {
-        $("#simple").html(data);
+        $("#simple").html(data['Data']);
       });
     }
   </script>
